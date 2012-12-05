@@ -2,9 +2,9 @@ package i3.moviledash.entidades;
 
 public class Comentario {
 
-	private String comentario;//contenido del comentario
-	private int idCreador; //creador del comentario
-	
+	private String comentario;// contenido del comentario
+	private int idCreador; // creador del comentario
+
 	public Comentario() {
 		// TODO Auto-generated constructor stub
 	}

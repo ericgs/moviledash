@@ -1,8 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MovileDashg</string>
+    <string name="app_name">MovileDash</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_tablero">Tablero</string>
+    <string name="title_activity_abmhistoria">Historia</string>
+    <string name="title_label">Título:</string>
+    <string name="title_historia">Historia</string>
+    <string name="descripcion_label">Descripción:</string>
+    <string name="noText"></string>
+    <string name="prioridad_label">Prioridad:</string>
+
+    <string-array name="stringArray_prioridad">
+        <item>Baja</item>
+        <item>Media</item>
+        <item>Alta</item>
+    </string-array>
+
+    <string name="riesgo_label">Riesgo:</string>
+
+    <string-array name="stringArray_riesgo">
+        <item>Bajo</item>
+        <item>Medio</item>
+        <item>Alto</item>
+    </string-array>
+
+    <string name="costo_label">Costo:</string>
+    <string name="str_aceptar">Aceptar</string>
+    <string name="str_canelar">Cancelar</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_activity_dash">Proyecto</string>
+    <string name="title_activity_proyecto">Proyecto</string>
 
 </resources>

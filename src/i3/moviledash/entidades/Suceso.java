@@ -4,15 +4,13 @@ import java.sql.Timestamp;
 
 import i3.moviledash.R.string;
 
-
 /**
  * 
  * @author inis I3
  * 
- * ES2 
- * Acontecimineto de importancia que afecta al desarollo de una historia, 
- * tales como los impedimentos
- *
+ *         ES2 Acontecimineto de importancia que afecta al desarollo de una
+ *         historia, tales como los impedimentos
+ * 
  */
 
 public class Suceso {
@@ -21,8 +19,8 @@ public class Suceso {
 	private int tipo;// tipo de suceso, errores, problemas, trabas, etc
 	private string detalle;// explicacion del suceso
 	private int idPersona; // persona que detecto el suceso
-	private Timestamp fecha; //fecha del succeso
-	
+	private Timestamp fecha; // fecha del succeso
+
 	public int getId() {
 		return id;
 	}
