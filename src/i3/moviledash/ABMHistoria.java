@@ -48,15 +48,6 @@ public class ABMHistoria extends Activity {
 					.getText().toString());
 		}
 
-		if ((((EditText) findViewById(R.id.int_costo)).getText().toString())
-				.equals("")) {
-			error = true;
-		} else {
-			h.setCosto(Double
-					.parseDouble(((EditText) findViewById(R.id.int_costo))
-							.getText().toString()));
-		}
-
 		switch (((Spinner) findViewById(R.id.spinner_riesgo))
 				.getSelectedItemPosition()) {
 		case 0:

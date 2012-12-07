@@ -22,10 +22,14 @@ public final class R {
         public static final int Titulo=0x7f080002;
         public static final int bt_aceptar=0x7f08000a;
         public static final int bt_cancelar=0x7f08000b;
+        public static final int button1=0x7f08000e;
+        public static final int historia_detail=0x7f080010;
+        public static final int historia_detail_container=0x7f08000c;
+        public static final int historia_list=0x7f08000d;
         public static final int label_prioridad=0x7f080006;
         public static final int label_riesgo=0x7f080008;
-        public static final int menu_settings=0x7f08000d;
-        public static final int pager=0x7f08000c;
+        public static final int menu_settings=0x7f080011;
+        public static final int pager=0x7f08000f;
         public static final int scrollView1=0x7f080000;
         public static final int spinner_prioridad=0x7f080007;
         public static final int spinner_riesgo=0x7f080009;
@@ -36,8 +40,27 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_abmhistoria=0x7f030000;
-        public static final int activity_proyecto=0x7f030001;
-        public static final int activity_tablero=0x7f030002;
+        public static final int activity_historia_detail=0x7f030001;
+        /** 
+    Layout alias to replace the single-pane version of the layout with a
+    two-pane version on Large screens.
+
+    For more on layout aliases, see:
+    http://developer.android.com/training/multiscreen/screensizes.html#TaskUseAliasFilters
+    
+
+    Layout alias to replace the single-pane version of the layout with a
+    two-pane version on Large screens.
+
+    For more on layout aliases, see:
+    http://developer.android.com/training/multiscreen/screensizes.html#TaskUseAliasFilters
+    
+         */
+        public static final int activity_historia_list=0x7f030002;
+        public static final int activity_historia_twopane=0x7f030003;
+        public static final int activity_proyecto=0x7f030004;
+        public static final int activity_tablero=0x7f030005;
+        public static final int fragment_historia_detail=0x7f030006;
     }
     public static final class menu {
         public static final int activity_abmhistoria=0x7f070000;
@@ -61,6 +84,8 @@ public final class R {
         public static final int title_activity_proyecto=0x7f040012;
         public static final int title_activity_tablero=0x7f040003;
         public static final int title_historia=0x7f040006;
+        public static final int title_historia_detail=0x7f040013;
+        public static final int title_historia_list=0x7f040014;
         public static final int title_label=0x7f040005;
         public static final int title_section1=0x7f040010;
         public static final int title_section2=0x7f04000f;

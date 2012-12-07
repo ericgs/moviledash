@@ -34,5 +34,7 @@
     <string name="title_section1">Section 1</string>
     <string name="title_activity_dash">Proyecto</string>
     <string name="title_activity_proyecto">Proyecto</string>
+    <string name="title_historia_detail">Detalle de historia</string>
+    <string name="title_historia_list">Historias</string>
 
 </resources>
